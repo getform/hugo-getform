@@ -1,0 +1,29 @@
+
+<form accept-charset="UTF-8" action="{{ .Get "action" }}" method="POST" role="form">
+
+    <div>
+        <label>Full Name</label>
+        <div>
+            <input style="margin-top: 5px; background-color: #fff; height:35px; width:500px;" type="text" name="first_name" placeholder="Enter your name and surname" required="required">
+        </div>
+    </div>
+    <br>
+    <div>
+        <label>Email address</label>
+        <div>
+            <input style="margin-top: 5px;background-color: #fff; height:35px; width:500px;" type="email" name="email" placeholder="Enter your email address" required="required">
+        </div>
+    </div>
+    <br>
+    <div>
+        <label>Your Message</label>
+        <div>
+            <input style="margin-top: 5px;background-color: #fff; height:35px; width:500px;" type="text" name="address" placeholder="1234 Main St" required="required">
+        </div>
+    </div>
+    <br>
+    <input type="hidden" name="utf8" value="✓">
+    <button style="font-size:14px; background-color:#6b7ddf; color:#fff; font-weight:bold; padding:10px 35px; margin: 5px 0 0 0;" type="submit">SUBMIT</button>
+
+</form>
+
