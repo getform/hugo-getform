@@ -11,4 +11,9 @@ series = []
 +++
 
 
-Hello
+
+Hello from Hugo
+---------
+Here's a simple titled section where you can place whatever information you want.
+
+Rest of your content goes here..
